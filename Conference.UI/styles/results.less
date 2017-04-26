@@ -1,0 +1,78 @@
+﻿@import "common.less";
+
+html, body {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+
+button{
+    width: 100%;
+}
+
+.form-group{
+    margin-top: 25px
+}
+
+#results{
+    margin: 10px auto;
+}
+
+/* ========================================
+                Text box
+   ======================================== */
+
+.input-group-addon
+{
+    background-color: @baseColor;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.input-group
+{
+    height: 50px;
+}
+
+.form-control
+{
+    height: 50px
+
+}
+
+/* ========================================
+                Button
+   ======================================== */
+
+.btn
+{
+    background-color: @baseColor;
+    border-radius: 0px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    height: 50px;
+}
+
+.btn-default:hover
+{
+    background-color: @baseColor;
+    color: #fff;
+}
+
+.btn-default:focus
+{
+    background-color: @baseColor;
+    border-color: #8c8c8c;
+}
+
+/* ========================================
+        Styles for wide screen devices
+   ======================================== */
+
+@media screen and (min-device-width: 1280px) {
+
+  #container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,236 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+/* SyncNet */
+/* WordPress */
+/*@baseColor: #00adee;
+@logoPath: 'images/logos/wp-logo.png';*/
+/* PHP */
+/*@baseColor: #374688;
+@logoPath: 'images/logos/php-logo.png';*/
+html,
+body {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+button {
+  width: 100%;
+}
+ul {
+  width: 100%;
+}
+a {
+  text-align: center;
+}
+.has-error button {
+  border-color: #a94442;
+  border-width: 3px;
+}
+input[type=submit] {
+  margin-top: 25px;
+}
+.form-group {
+  margin-top: 25px;
+}
+.clear {
+  clear: both;
+}
+/* ========================================
+                Loader
+   ======================================== */
+#loader {
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+#loader img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 255px;
+  width: 60px;
+  height: 60px;
+}
+/* ========================================
+                Logo
+   ======================================== */
+.logo {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.logo img {
+  width: 400px;
+}
+/* ========================================
+                Text box
+   ======================================== */
+.input-group-addon {
+  background-color: #b146c2;
+  color: #fff;
+  border-radius: 0px;
+}
+.input-group {
+  height: 50px;
+}
+.form-control {
+  height: 50px;
+}
+/* ========================================
+                Button
+   ======================================== */
+.btn {
+  background-color: #b146c2;
+  border-radius: 0px;
+  color: #fff;
+  width: 100%;
+  border: none;
+  height: 50px;
+}
+.btn-default:hover {
+  background-color: #b146c2;
+  color: #fff;
+}
+.btn-default:focus {
+  background-color: #b146c2;
+  border-color: #8c8c8c;
+}
+/* ========================================
+        Styles for wide screen devices
+   ======================================== */
+@media screen and (min-device-width: 1280px) {
+  #winner {
+    width: 400px;
+    margin: 0 auto;
+  }
+}

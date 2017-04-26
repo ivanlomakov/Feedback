@@ -1,0 +1,10 @@
+*.dll
+*.suo
+*.pdb
+*.exe
+**/bin/
+**/obj/
+**/packages/
+*.user
+.vs
+Conference.UI/build

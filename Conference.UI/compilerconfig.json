@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Styles/index.css",
+    "inputFile": "Styles/index.less"
+  },
+  {
+    "outputFile": "styles/winner.css",
+    "inputFile": "styles/winner.less"
+  },
+  {
+    "outputFile": "styles/results.css",
+    "inputFile": "styles/results.less"
+  }
+]

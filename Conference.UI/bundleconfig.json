@@ -1,0 +1,27 @@
+[
+  {
+    "outputFileName": "scripts/index.min.js",
+    "inputFiles": [
+      "scripts/common.js",
+      "scripts/jquery.cookie.js",
+      "scripts/rating.js",
+      "scripts/validation.js",
+      "scripts/factories.js",
+      "scripts/index.js"
+    ]
+  },
+  {
+    "outputFileName": "scripts/winner.min.js",
+    "inputFiles": [
+      "scripts/common.js",
+      "scripts/jquery.cookie.js",
+      "scripts/winner.js"
+    ]
+  },
+  {
+    "outputFileName": "scripts/results.min.js",
+    "inputFiles": [
+      "scripts/results.js"
+    ]
+  }
+]
