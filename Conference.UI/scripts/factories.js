@@ -12,6 +12,14 @@
 
         content.append(type);
 
+        var isRequired = $('<input>');
+        isRequired.attr('type', 'hidden');
+        isRequired.attr('name', 'isRequired');
+        isRequired.attr('id', 'isRequired');
+        isRequired.val(data.IsRequired);
+
+        content.append(isRequired);
+
         var error = $('<p>');
         error.attr('class', 'error');
 
@@ -26,7 +34,10 @@
                 content.append(optionType);
                 
                 var title = $('<p>');
+                var asterisk = data.IsRequired == "True" ? "<span style='color:red'>*</span>" : "";
                 title.text(data.Text);
+                title.append(asterisk);
+
 
                 content.append(title);
 
@@ -42,7 +53,9 @@
             case 'TextQuestion':
 
                 var title = $('<p>');
+                var asterisk = data.IsRequired == "True" ? "<span style='color:red'>*</span>" : "";
                 title.text(data.Text);
+                title.append(asterisk);
 
                 var answer = $('<textarea>');
                 answer.attr('type', 'text');
@@ -61,7 +74,9 @@
             case 'RatingQuestion':
 
                 var title = $('<p>');
+                var asterisk = data.IsRequired == "True" ? "<span style='color:red'>*</span>" : "";
                 title.text(data.Text);
+                title.append(asterisk);
 
                 content.append(title);
 
@@ -81,7 +96,9 @@
                 logo.append(link);
 
                 var title = $('<p>');
+                var asterisk = data.IsRequired == "True" ? "<span style='color:red'>*</span>" : "";
                 title.text(data.Text);
+                title.append(asterisk);
 
                 var name = generateTextField('nameField', '&nbsp;&nbsp;Имя&nbsp;&nbsp;', 'name', 'Как мы можем к тебе обращаться?');
                 var uid = generateTextField('number', 'Номер', 'uid', 'Номер твоего бейджа');
