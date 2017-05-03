@@ -69,6 +69,10 @@
     <Compile Include="Migrations\201611180959035_Results.Designer.cs">
       <DependentUpon>201611180959035_Results.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704281508543_AddIsRequired.cs" />
+    <Compile Include="Migrations\201704281508543_AddIsRequired.Designer.cs">
+      <DependentUpon>201704281508543_AddIsRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,7 +83,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\Nix.StyleCop.Analyzers.1.2.223.33468-RC2\analyzers\dotnet\cs\Nix.StyleCop.Analyzers.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
@@ -96,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611180959035_Results.resx">
       <DependentUpon>201611180959035_Results.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704281508543_AddIsRequired.resx">
+      <DependentUpon>201704281508543_AddIsRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

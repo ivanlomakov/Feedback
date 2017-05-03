@@ -154,7 +154,6 @@
     <Compile Include="Validators\AcquaintanceQuestionModelValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\Nix.StyleCop.Analyzers.1.2.223.33468-RC2\analyzers\dotnet\cs\Nix.StyleCop.Analyzers.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
