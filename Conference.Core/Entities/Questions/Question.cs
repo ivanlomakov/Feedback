@@ -6,11 +6,13 @@
 
         public int? Order { get; set; }
 
+        public bool IsRequired { get; set; }
+
         public abstract string ToJson();
 
         protected string GetFieldsForJson()
         {
-            return $" \"{nameof(this.Id)}\" : \"{this.Id}\", \"{nameof(this.Text)}\" : \"{this.Text}\"";
+            return $" \"{nameof(this.Id)}\" : \"{this.Id}\", \"{nameof(this.Text)}\" : \"{this.Text}\", \"{nameof(this.IsRequired)}\" : \"{this.IsRequired}\"";
         }
     }
 }
